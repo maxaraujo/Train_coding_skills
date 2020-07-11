@@ -1,4 +1,4 @@
-//Por Maxilliam
+//Por Maxilliam Araujo
 /*
 PROBLEMA: 1002 - Área do Círculo
 RESPOSTA: Accepted
