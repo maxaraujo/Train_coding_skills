@@ -7,8 +7,8 @@
 // Performance: Not assessed
 function CyclicRotation(A, K){
   const aSize = A.length;
-  const rotation = K > aSize ? K % aSize : K;
-  if(aSize === rotation || rotation === 0)
+  const rotation = K % aSize;
+  if(rotation === 0)
     return A;
   
   const rotatedNumbers = A.splice(aSize - rotation);
